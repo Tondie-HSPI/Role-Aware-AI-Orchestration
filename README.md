@@ -166,5 +166,3 @@ This architectural pattern generalizes to:
 ## Repository Purpose
 
 This repository serves as an architectural showcase of role-aware generative AI system design.
-
-```
