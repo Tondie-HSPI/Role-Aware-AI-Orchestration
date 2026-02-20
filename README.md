@@ -163,6 +163,20 @@ This architectural pattern generalizes to:
 
 ---
 
+## Architecture Documentation
+
+Detailed architectural components are documented in the `/docs` directory:
+
+- [System Overview](docs/01-system-overview.md)  
+- [Constraint Hierarchy](docs/02-constraint-hierarchy.md)  
+- [State Model](docs/03-state-model.md)  
+- [Implementation Notes](docs/04-implementation-notes.md)  
+- [Design Principles](docs/05-design-principles.md)  
+
+These documents formalize the governance, orchestration, and state-driven design model underlying the framework.
+
+---
+
 ## Repository Purpose
 
 This repository serves as an architectural showcase of role-aware generative AI system design.
