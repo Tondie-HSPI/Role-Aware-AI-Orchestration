@@ -17,7 +17,7 @@ The architecture is demonstrated through the Tag-Along Reader literacy implement
 
 ## Core Design Principle
 
-**AI should operate inside a workflow — not replace one.**
+**AI should operate inside a workflow, not replace one.**
 
 Most generative AI systems prioritize conversational flexibility.  
 This framework prioritizes:
