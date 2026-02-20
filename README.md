@@ -11,8 +11,7 @@ Rather than exposing an open conversational interface, the system embeds generat
 - Produce structured, auditable outputs  
 - Enable deterministic execution paths  
 
-The architecture is demonstrated through an educational literacy implementation, but is intentionally designed to generalize across document-heavy, regulated, and multi-stakeholder domains.
-
+The architecture is demonstrated through the Tag-Along Reader literacy implementation, but is intentionally designed to generalize across multi-role, governance-sensitive, and regulated environments.
 ---
 
 ## Core Design Principle
