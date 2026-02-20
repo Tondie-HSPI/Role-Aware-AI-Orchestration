@@ -12,6 +12,7 @@ Rather than exposing an open conversational interface, the system embeds generat
 - Enable deterministic execution paths  
 
 The architecture is demonstrated through the Tag-Along Reader literacy implementation, but is intentionally designed to generalize across multi-role, governance-sensitive, and regulated environments.
+
 ---
 
 ## Core Design Principle
