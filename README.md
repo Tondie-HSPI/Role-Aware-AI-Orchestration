@@ -4,6 +4,10 @@
 
 This repository implements a **role-aware generative AI orchestration framework** built on hierarchical constraint enforcement and stateful execution.
 
+> **Status:** Architectural prototype. The orchestration graph and node structure are implemented;
+> nodes currently demonstrate routing and state transitions rather than live model calls. This repo
+> is a design-pattern reference, not a deployed system.
+
 Rather than exposing an open conversational interface, the system embeds generative models inside a governed workflow designed to:
 
 - Preserve human cognitive effort  
@@ -180,3 +184,11 @@ These documents formalize the governance, orchestration, and state-driven design
 ## Repository Purpose
 
 This repository serves as an architectural showcase of role-aware generative AI system design.
+
+---
+
+## Acknowledgment
+
+The literacy use case (Tag-Along Reader) that this architecture is demonstrated through was shaped
+in collaboration with Crystal Winter, who served as subject-matter expert on the literacy/education
+domain. Architecture design and implementation are my own.
