@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository implements a **role-aware generative AI orchestration framework** built on hierarchical constraint enforcement and stateful execution.
+This repository implements a **role-aware generative AI orchestration framework** built on hierarchical constraint enforcement and stateful execution. It is framed as a design pattern for operational workflows where different users need different permissions, context, outputs, and review boundaries.
 
 > **Status:** Architectural prototype. The orchestration graph and node structure are implemented;
 > nodes currently demonstrate routing and state transitions rather than live model calls. This repo
@@ -15,7 +15,7 @@ Rather than exposing an open conversational interface, the system embeds generat
 - Produce structured, auditable outputs  
 - Enable deterministic execution paths  
 
-The architecture is demonstrated through the Tag-Along Reader literacy implementation, but is intentionally designed to generalize across multi-role, governance-sensitive, and regulated environments.
+The architecture is demonstrated through the Tag-Along Reader literacy implementation, but is intentionally designed to generalize across multi-role, governance-sensitive, and regulated environments where unclear handoffs or over-broad AI access can create risk.
 
 ---
 
@@ -32,7 +32,9 @@ This framework prioritizes:
 - Structured outputs over conversational drift  
 - Human-in-the-loop control over automation  
 
-The objective is controlled cognitive support — not answer substitution.
+The objective is controlled cognitive support - not answer substitution.
+
+Operationally, the pattern supports teams that need structured intake, role-specific routing, escalation boundaries, and auditable outputs instead of an open-ended chat surface.
 
 ---
 
